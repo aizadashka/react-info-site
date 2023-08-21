@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  pad: 0;
+  font-family: 'Inter', sans-serif;
+  background: #23252C;
+}
+.root {
+  display: flex;
+}
+.container {
+  border-radius: 10px 10px 0 0;
+  background: #1A1B21;
+  color: #DCDCDC;
+  max-width: 550px;
+  min-width: 320px;
+  width: 95%;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+.sections-container {
+  padding: 1.25em 2.25em;
+  margin: 0;
+}
+.info {
+  text-align: center;
+}
+.profile-img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.info--website {
+  display: block;
+  text-decoration-line: none;
+  color: #DCDCDC;
+  font-family: Inter;
+  font-weight: 400;
+}
+.info--name {
+  font-size: 25px;
+  font-weight: 700;
+}
+.info--position {
+  font-weight: 400;
+  color: #F3BF99;
+}
+.info--btns {
+  display: flex;
+  justify-content: space-between;
+}
+.btn i {
+  margin: 0 0.3em;
+}
+.btn {
+  width: 45%;
+  height: 34px;
+  padding: 9px 13px 9px 11px;
+  border-radius: 6px;
+  border: 1px;
+  margin: 1em 0;
+  text-decoration-line: none;
+}
+.info--email {
+  background: #D1D5DB;
+  color: #1E1F26;
+}
+.info--linkedIn {
+  background: #5093E2;
+  color: white;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  background: #161619;
+  border-radius: 0 0 10px 10px;
+  padding: 1.5em 4.5em;
+}
+footer .fa-brands {
+  font-size: 25px;
+}
+.footer--icons {
+  color: #918E9B;
+}
+.about p, .interests p {
+  font-weight: 400;
+  line-height: 1.5rem;
+}
