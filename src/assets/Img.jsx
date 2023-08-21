@@ -1,5 +1,7 @@
 import React from 'react'
+import { pic } from './aizada.jpg'
+
 
 export default function Img() {
-    return <img src='../src/assets/aizada.jpg' className='profile-img'/>
+    return <img src={pic} className='profile-img'/>
 }
