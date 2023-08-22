@@ -1,5 +1,5 @@
 import React from 'react'
-import { pic } from './aizada.jpg'
+import pic from './aizada.jpg'
 
 
 export default function Img() {
