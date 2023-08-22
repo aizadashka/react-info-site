@@ -4,7 +4,8 @@
 
 html, body {
   margin: 0;
-  pad: 0;
+  padding: 0;
+  width: 100%;
   font-family: 'Inter', sans-serif;
   background: #23252C;
 }
