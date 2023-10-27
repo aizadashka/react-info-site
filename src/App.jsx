@@ -8,12 +8,14 @@ import Img from './assets/Img'
 
 export default function App() {
     return (
-        <div className='container'>
-            <Img />
-            <div className='sections-container'>
-                <Info />
-                <About />
-                <Interests />
+        <div>
+            <div className='container'>
+                <Img />
+                <div className='sections-container'>
+                    <Info />
+                    <About />
+                    <Interests />
+                </div>
             </div>
             <Footer />
         </div>
